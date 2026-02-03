@@ -708,9 +708,14 @@ pre-commit install
 - [x] Policy system (lock/allow/deny/boost)
 - [x] MVCC sharded cache
 - [x] Circuit breaker pattern
-- [x] Dispatch orchestrator
+- [x] **Dispatch system (complete)**
+  - [x] Static dispatch (zero overhead)
+  - [x] Dynamic dispatch (~100-500ns)
+  - [x] Hot-reload dispatch (config watching)
+  - [x] Config-driven dispatch (YAML rules)
+  - [x] Dispatch orchestrator
+  - [x] Real-time audio buffers
 - [x] Backend adapters (FlashAttention, FlashInfer, xFormers)
-- [ ] Full kernel dispatch integration
 - [ ] Speculative decoding integration
 - [ ] Automatic performance tuning
 - [ ] Distributed inference support
